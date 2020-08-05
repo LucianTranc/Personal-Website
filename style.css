@@ -10,9 +10,19 @@ body
     padding-right:40px;
 }
 
-.bg-custom-navbar
+nav
 {
+    transition: 700ms ease;
     font-size: 25px;
-    background-image: linear-gradient(15deg, #d1ebfa 0%, #66ebdb 100%);
-}
+    background: transparent !important;
+
+/*     background-image: linear-gradient(15deg, #d1ebfa 0%, #66ebdb 100%);
+ */}
+
+nav.scrolled {
+
+    background: red !important;
+    font-size: 25px;
+/*     background-image: linear-gradient(15deg, #00a2ff 0%, #ff0000 100%);
+ */}
 
