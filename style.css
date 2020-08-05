@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family-Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navbar-nav > li
 {
     padding-left:40px;
     padding-right:40px;
+}
+
+.bg-custom-navbar
+{
+    font-size: 25px;
+    background-image: linear-gradient(15deg, #d1ebfa 0%, #66ebdb 100%);
 }
 
