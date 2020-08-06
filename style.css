@@ -5,10 +5,17 @@ body
     font-size: 20px;
 }
 
-h1 {
+h1
+{
     color: rgba(27, 84, 168, 0.5) !important;
     font-size: 60px;
 
+}
+
+i
+{
+    color: rgba(27, 84, 168, 0.5);
+    padding: 20px;
 }
 
 .navbar-nav > li
