@@ -2,10 +2,12 @@
 body
 {
     font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
 h1 {
     color: rgba(27, 84, 168, 0.5) !important;
+    font-size: 60px;
 
 }
 
@@ -35,7 +37,7 @@ nav
 
 nav.scrolled {
 
-    background: rgba(27, 84, 168, 0.5) !important;
+    background: rgba(0, 53, 133, 0.5) !important;
     
 }
 
