@@ -75,3 +75,33 @@ nav.scrolled {
     
 }
 
+.projectgif {
+
+    max-height: 500px;
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.projectcell {
+
+    text-align: center;
+
+}
+
+.storeicon {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
+.headshot {
+
+    max-width: 500px;
+    width: 85%;
+    height: auto;
+    border-radius: 50%;
+
+}
