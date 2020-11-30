@@ -5,6 +5,11 @@
     font-family: 'PT Sans', sans-serif;
   }
   
+  h1
+  {
+    color: black;
+  }
+
   .home,
   .services,
   .products,
