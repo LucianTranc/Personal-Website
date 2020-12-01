@@ -4,9 +4,6 @@ import HeroSection from '../components/HeroSection';
 import Aboutme from '../components/Aboutme';
 import Footer from '../components/Footer';
 
-{/*import Footer from '../Footer';
-import Cards from '../Cards'; */}
-
 function About() {
   return (
     <>
