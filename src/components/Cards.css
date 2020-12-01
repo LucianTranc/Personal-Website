@@ -1,5 +1,4 @@
 .cards {
-  padding: 4rem;
   background: #fff;
 }
 
@@ -12,13 +11,14 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  width: 100%;
 }
 
 .cards__items {
@@ -147,5 +147,14 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+  .cards {
+    padding: 6rem;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .cards {
+    padding: 0rem;
   }
 }
