@@ -7,7 +7,7 @@ function Footer() {
     <div className='footer-container'>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <small class='website-rights'>Lucian Tranc © 2020</small>
+          <small class='website-rights'>Lucian Tranc 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link'
