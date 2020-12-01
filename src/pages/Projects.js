@@ -1,11 +1,10 @@
 import React from 'react';
 import '../App.css';
-import Textbox from '../components/Textbox';
 
 function Projects() {
   return (
     <>
-      <Textbox/>
+      <h1>Projects</h1>
       {/*<Cards />
       <Footer />*/}
     </>

@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 
-function Experience() {
+function Contact() {
   return (
     <>
-      <h1>Experience</h1>
+      <h1>Contact</h1>
       {/*<Cards />
       <Footer />*/}
     </>
   );
 }
 
-export default Experience;
+export default Contact;
