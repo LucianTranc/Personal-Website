@@ -9,7 +9,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/img/hoverrocket.gif'
+              src='/img/hrdemo.gif'
               title='Hover Rocket'
               text='Mobile game thats available on the iOS Appstore and Google Play store for free'
               label='C#, Unity'
@@ -18,7 +18,7 @@ function Cards() {
               storeLinks={true}
             />
             <CardItem
-              src='/img/cppenginedemo.gif'
+              src='/img/cppgamedemo.gif'
               title='2D Game Platform'
               text='Created a 2D Game Engine/Platform from scratch that I plan to use for future projects'
               label='C++, SDL2'

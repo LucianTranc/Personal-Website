@@ -5,33 +5,33 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>Lucian Tranc 2020</small>
-          <div class='social-icons'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <small className='website-rights'>Lucian Tranc 2020</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Email'
             >
-              <i class='fas fa-envelope' />
+              <i className='fas fa-envelope' />
             </Link>
             <Link
-              class='social-icon-link'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Github'
             >
-              <i class='fab fa-github' />
+              <i className='fab fa-github' />
             </Link>
             <Link
-              class='social-icon-link'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>

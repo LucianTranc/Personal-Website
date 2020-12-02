@@ -5,7 +5,9 @@ function CardItem(props) {
 
   const storeLinks = props.storeLinks;
   const github = props.github;
+  const githublink = props.githublink;
   const secondbutton = props.secondbutton;
+
 
 
   if (storeLinks) {
@@ -26,16 +28,16 @@ function CardItem(props) {
               <h5 className='cards__item__text'>{props.text}</h5>
               <div className="cards__item__buttons">
                 <Link
-                  class='store-icon-link'
+                  className='store-icon-link'
                   to='/'
                   target='_blank'
                   aria-label='LinkedIn'
                 >
                   <i className='fab fa-app-store fa-2x'/>
                 </Link>
-                <a href={props.github} className='card__button'>Github&nbsp;Repository</a>
+                <a href={githublink} className='card__button'>Github</a>
                 <Link
-                  class='store-icon-link'
+                  className='store-icon-link'
                   to='/'
                   target='_blank'
                   aria-label='LinkedIn'
@@ -68,7 +70,7 @@ function CardItem(props) {
                 <h5 className='cards__item__text'>{props.text}</h5>
               </div>
               <div className="cards__item__buttons">
-                <a href={props.github} className='card__button'>Github&nbsp;Repository</a>
+                <a href={githublink} className='card__button'>Github</a>
                 <a href={props.buttonlink} className='card__button'>{props.buttonname}</a>
               </div>
             </div>
@@ -96,7 +98,7 @@ function CardItem(props) {
                 <h5 className='cards__item__text'>{props.text}</h5>
               </div>
               <div className="cards__item__buttons">
-                <a href={props.github} className='card__button'>Github&nbsp;Repository</a>
+                <a href={githublink} className='card__button'>Github</a>
               </div>
             </div>
           </div>
