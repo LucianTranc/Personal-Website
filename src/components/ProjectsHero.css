@@ -6,9 +6,9 @@ video {
   z-index: -1;
 }
 
-.hero-container {
+.projects-hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -19,14 +19,14 @@ video {
   text-align: center;
 }
 
-.hero-container > h1 {
+.projects-hero-container > h1 {
   color: #fff;
   font-size: 100px;
   margin-top: 0px;
 
 }
 
-.hero-container > p {
+.projects-hero-container > p {
   margin-top: 8px;
   color: #fff;
   font-size: 28px;
@@ -49,25 +49,25 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container {
+  .projects-hero-container {
     height: 70vh;
   }
-  .hero-container > h1 {
+  .projects-hero-container > h1 {
     font-size: 70px;
     margin-top: 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container {
+  .projects-hero-container {
     height: 50vh;
   }
-  .hero-container > h1 {
+  .projects-hero-container > h1 {
     font-size: 50px;
     margin-top: 0px;
   }
 
-  .hero-container > p {
-    font-size: 30px;
+  .projects-hero-container > p {
+    font-size: 20px;
   }
 }

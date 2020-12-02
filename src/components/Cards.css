@@ -70,9 +70,6 @@ h1 {
   box-sizing: border-box;
 }
 
-.cards__item__text__continer {
-  
-}
 
 .cards__item__buttons {
   text-align: center;
@@ -87,6 +84,7 @@ h1 {
   
   background-color: black; /* Green */
   color: white;
+  margin: 0px 20px 0px;
   padding: 10px 25px;
   border-radius: 15px;
   text-align: center;
@@ -96,7 +94,7 @@ h1 {
 }
 
 .store-icon-link {
-  padding: 0px 20px 0px;
+  padding: 0px 0px 0px;
   color: black;
   font-size: 24px;
 }
@@ -104,14 +102,15 @@ h1 {
 .cards__item__img {
   margin: auto;
   position: absolute;
+  display: block;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  display: block;
   height: 100%;
-  object-fit: cover;
-  transition: all 0.2s linear;
+  width: 100%;
+  object-fit: contain;
+  transition: all 0.1s linear;
 }
 
 .cards__item__img:hover {
@@ -156,5 +155,8 @@ h1 {
 @media only screen and (max-width: 564px) {
   .cards {
     padding: 0rem;
+  }
+  .card__button {
+    margin: 0px 10px 0px;    
   }
 }

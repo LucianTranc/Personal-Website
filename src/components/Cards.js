@@ -18,7 +18,7 @@ function Cards() {
               storeLinks={true}
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='/img/cppenginedemo.gif'
               title='2D Game Platform'
               text='Created a 2D Game Engine/Platform from scratch that I plan to use for future projects'
               label='C++, SDL2'
@@ -28,12 +28,15 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='img/svgeditor.png'
               title='SVG Image Editor Web App'
               text='Image editor for .SVG images files where the user can edit, scale and add or delete image elements'
               label='C, Node.js, Javascript/HTML'
               github={true}
               githublink='#'
+              secondbutton={true}
+              buttonlink='#'
+              buttonname='View&nbsp;App'
             />
             <CardItem
               src='img/tetris.gif'
@@ -42,6 +45,9 @@ function Cards() {
               label='Javascript'
               github={true}
               githublink='#'
+              secondbutton={true}
+              buttonlink='#'
+              buttonname='Play&nbsp;Now'
             />
           </ul>
           <ul className='cards__items'>
@@ -54,7 +60,7 @@ function Cards() {
               githublink='#'
             />
             <CardItem
-              src=''
+              src='/img/ltwebsite.png'
               title="Lucian Tranc Personal Website"
               text='I developed the website you are currently exploring'
               label='React.js, Javascript/HTML'
@@ -62,13 +68,14 @@ function Cards() {
               githublink='#'
             />
             <CardItem
-              src=''
+              src='/img/Rhinopavement.png'
               title="Rhino Pavement Inc. Website"
-              text='Website I created for a friends Seal Coating Company'
+              text='Website I created for a friends seal coating company'
               label='Javascript/HTML, Bootstrap'
               github={false}
+              secondbutton={true}
               buttonlink='#'
-              buttonname='Visit Site'
+              buttonname='Visit&nbsp;Site'
             />
           </ul>
         </div>
