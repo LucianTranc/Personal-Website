@@ -95,6 +95,12 @@ h1 {
   
 }
 
+.card__icon
+{
+  color: black;
+  text-decoration: none;
+}
+
 .card__button:hover {
   background: #fff;
   color: #242424;

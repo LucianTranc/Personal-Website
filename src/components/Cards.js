@@ -14,7 +14,7 @@ function Cards() {
               text='Mobile game thats available on the iOS Appstore and Google Play store for free'
               label='C#, Unity'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/HoverRocketScripts'
               storeLinks={true}
             />
             <CardItem
@@ -23,7 +23,7 @@ function Cards() {
               text='Created a 2D Game Engine/Platform from scratch that I plan to use for future projects'
               label='C++, SDL2'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/SDL_Game'
             />
           </ul>
           <ul className='cards__items'>
@@ -33,9 +33,9 @@ function Cards() {
               text='Image editor for .SVG images files where the user can edit, scale and add or delete image elements'
               label='C, Node.js, Javascript/HTML'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/SVG-Image-Editor'
               secondbutton={true}
-              buttonlink='#'
+              buttonlink='https://svg-editor.herokuapp.com/'
               buttonname='View&nbsp;App'
             />
             <CardItem
@@ -44,9 +44,9 @@ function Cards() {
               text='Tetris game created using Javascript. Try it out!'
               label='Javascript'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/Tetris'
               secondbutton={true}
-              buttonlink='#'
+              buttonlink='/LucianTrancTetris.html'
               buttonname='Play&nbsp;Now'
             />
           </ul>
@@ -57,7 +57,7 @@ function Cards() {
               text='Created a visualization of a Sudoku Backtracking algorithm'
               label='Python, Pygame'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/SudokuSolver'
             />
             <CardItem
               src='/img/ltwebsite.png'
@@ -65,7 +65,7 @@ function Cards() {
               text='I developed the website you are currently exploring'
               label='React.js, Javascript/HTML'
               github={true}
-              githublink='#'
+              githublink='https://github.com/LucianTranc/Personal-Website'
             />
             <CardItem
               src='/img/Rhinopavement.png'
@@ -74,7 +74,7 @@ function Cards() {
               label='Javascript/HTML, Bootstrap'
               github={false}
               secondbutton={true}
-              buttonlink='#'
+              buttonlink='https://rhinopavement.com/'
               buttonname='Visit&nbsp;Site'
             />
           </ul>
