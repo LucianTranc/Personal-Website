@@ -10,9 +10,6 @@ function Projects() {
       <ProjectsHero />
       <Cards />
       <Footer />
-
-      {/*<Cards />
-      <Footer />*/}
     </>
   );
 }

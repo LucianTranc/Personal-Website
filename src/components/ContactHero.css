@@ -1,13 +1,5 @@
-.contactheroimg {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
-.contact-hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+.contact-hero-container
+{
   height: 75vh;
   width: 100%;
   display: flex;
@@ -19,14 +11,25 @@
   text-align: center;
 }
 
-.contact-hero-container > h1 {
+.contact-hero-container > img
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.contact-hero-container > h1
+{
   color: #fff;
   font-size: 100px;
   margin-top: 0px;
 
 }
 
-.contact-hero-container > p {
+.contact-hero-container > p
+{
   margin-top: 8px;
   color: #fff;
   font-size: 28px;
@@ -36,27 +39,36 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-
-@media screen and (max-width: 960px) {
-  .projects-hero-container {
+@media screen and (max-width: 960px)
+{
+  .contact-hero-container
+  {
     height: 70vh;
   }
-  .projects-hero-container > h1 {
+
+  .contact-hero-container > h1
+  {
     font-size: 70px;
     margin-top: 0px;
   }
+
 }
 
-@media screen and (max-width: 768px) {
-  .projects-hero-container {
+@media screen and (max-width: 768px)
+{
+  .contact-hero-container
+  {
     height: 50vh;
   }
-  .projects-hero-container > h1 {
+
+  .contact-hero-container > h1
+  {
     font-size: 50px;
     margin-top: 0px;
   }
 
-  .projects-hero-container > p {
+  .contact-hero-container > p {
     font-size: 20px;
   }
+  
 }

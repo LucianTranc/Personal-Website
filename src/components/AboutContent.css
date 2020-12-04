@@ -1,16 +1,11 @@
-.aboutmediv
+.about-content-container
 {
   background-color: white;
   padding: 2rem;
   text-align: center;
 }
 
-.aboutmeh1
-{
-  text-align: center;
-}
-
-.aboutmep
+.about-content-container > p
 {
   text-align: center;
   line-height: 25px;
@@ -18,7 +13,7 @@
   margin: auto;
 }
 
-.headshot
+.about-content-container > img
 {
     max-width: 250px;
     width: 85%;

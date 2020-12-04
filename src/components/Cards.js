@@ -5,9 +5,9 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='cards-container'>
+        <div className='cards-wrapper'>
+          <ul className='cards-items'>
             <CardItem
               src='/img/hrdemo.gif'
               title='Hover Rocket'
@@ -26,7 +26,7 @@ function Cards() {
               githublink='https://github.com/LucianTranc/SDL_Game'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards-items'>
             <CardItem
               src='img/svgeditor.png'
               title='SVG Image Editor Web App'
@@ -50,7 +50,7 @@ function Cards() {
               buttonname='Play&nbsp;Now'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards-items'>
             <CardItem
               src='img/sudokusolver.gif'
               title='Sudoku Backtracking Algorithm'

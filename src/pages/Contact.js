@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
 import ContactHero from '../components/ContactHero'
-import Contactme from '../components/Contactme'
+import ContactContent from '../components/ContactContent'
 
 function Contact() {
   return (
     <>
       <ContactHero/>
-      <Contactme/>
+      <ContactContent/>
     </>
   );
 }
