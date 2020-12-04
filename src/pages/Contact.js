@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import ContactHero from '../components/ContactHero'
+import Contactme from '../components/Contactme'
 
 function Contact() {
   return (
     <>
-      <h1>Contact</h1>
-      {/*<Cards />
-      <Footer />*/}
+      <ContactHero/>
+      <Contactme/>
     </>
   );
 }

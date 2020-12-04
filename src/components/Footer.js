@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -9,30 +8,9 @@ function Footer() {
         <div className='social-media-wrap'>
           <small className='website-rights'>Lucian Tranc 2020</small>
           <div className='social-icons'>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Email'
-            >
-              <i className='fas fa-envelope' />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Github'
-            >
-              <i className='fab fa-github' />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i className='fab fa-linkedin' />
-            </Link>
+            <a href='mailto: ltranc@uoguelph.ca' target="_blank" rel="noreferrer" className='social-icon-link'><i className='fas fa-envelope'/></a>
+            <a href='https://github.com/LucianTranc' target="_blank" rel="noreferrer" className='social-icon-link'><i className='fab fa-github'/></a>
+            <a href='https://linkedin.com/in/luciantranc' target="_blank" rel="noreferrer" className='social-icon-link'><i className='fab fa-linkedin'/></a>
           </div>
         </div>
       </section>

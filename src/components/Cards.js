@@ -18,7 +18,7 @@ function Cards() {
               storeLinks={true}
             />
             <CardItem
-              src='/img/cppgamedemo.gif'
+              src='/img/cppdemo.gif'
               title='2D Game Platform'
               text='Created a 2D Game Engine/Platform from scratch that I plan to use for future projects'
               label='C++, SDL2'
@@ -52,7 +52,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='img/Sudoku.gif'
+              src='img/sudokusolver.gif'
               title='Sudoku Backtracking Algorithm'
               text='Created a visualization of a Sudoku Backtracking algorithm'
               label='Python, Pygame'
