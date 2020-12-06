@@ -2,22 +2,80 @@
 {
   background-color: white;
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.experience-content-container > p
+.job-section
 {
-  text-align: center;
+  width: 75%;
+}
+
+.job-info
+{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.job-info-text-wrapper
+{
+  margin: auto 0px auto;
+}
+
+.job-title, .company-title
+{
+  text-align: left;
+}
+
+.job-section > p
+{
   line-height: 25px;
-  max-width: 1000px;
   margin: auto;
 }
 
-.experience-content-container > img
+.company-logo-img
 {
-    max-width: 250px;
-    width: 85%;
-    height: auto;
-    border-radius: 50%;
-    padding: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.job-description > p
+{
+  padding: 20px 0px 20px;
+}
+
+.point-form
+{
+  padding: 0px 20px 0px;
+}
+
+@media only screen and (max-width: 564px)
+{
+  .job-section
+  {
+    width: 95%;
+  }
+
+  .company-logo-img
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+  .job-title
+  {
+    font-size: 25px;
+  }
+  .company-title
+  {
+    font-size: 15px;
+  }
+  .job-description > p
+  {
+    font-size: 15px;
+  }
+  .job-description > h2
+  {
+    font-size: 20px;
+  }
 }

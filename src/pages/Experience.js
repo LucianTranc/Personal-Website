@@ -11,6 +11,7 @@ function Experience() {
         isVideo={false}
         backgroundSource='/img/city.jpg'
         header='Experience'
+        subheader="Skills and experiences I've gained from my previous work"
       />
       <ExperienceContent/>
       <Footer/>
