@@ -13,8 +13,9 @@ function AboutHero() {
         <Button
           to='/contact'
         >
-          Contact Me
+          Contact
         </Button>
+        <a href='/img/Lucian_Tranc_Resume.pdf' target="_blank" rel="noreferrer" className='download-button'>Resume</a>
       </div>
     </div>
   );

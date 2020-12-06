@@ -2,4 +2,4 @@
 This is the code to my personal website that is hosted at luciantranc.com
 
 # What I learned
-* Developed my react skills
+* Gained experience using React

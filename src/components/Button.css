@@ -33,3 +33,8 @@
     color: #242424;
     transition: all 0.3s ease-out;
 }
+
+.btn-mobile
+{
+    padding: 20px;
+}

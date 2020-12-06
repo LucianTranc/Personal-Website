@@ -1,13 +1,20 @@
 import React from 'react';
 import '../App.css';
-import ContactHero from '../components/ContactHero'
+import Hero from '../components/Hero'
 import ContactContent from '../components/ContactContent'
+import Footer from '../components/Footer'
 
 function Contact() {
   return (
     <>
-      <ContactHero/>
+      <Hero
+        isVideo={false}
+        backgroundSource='/img/luciantranc.jpg'
+        header='Contact'
+        subheader='Feel free to reach out anytime!'
+      />
       <ContactContent/>
+      <Footer/>
     </>
   );
 }

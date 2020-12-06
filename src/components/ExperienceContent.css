@@ -1,0 +1,23 @@
+.experience-content-container
+{
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.experience-content-container > p
+{
+  text-align: center;
+  line-height: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.experience-content-container > img
+{
+    max-width: 250px;
+    width: 85%;
+    height: auto;
+    border-radius: 50%;
+    padding: 30px;
+}
