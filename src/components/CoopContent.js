@@ -79,14 +79,14 @@ function CoopContent() {
           <h2>What I Learned</h2>
           <p>
             With this being my first Co-op placement, it was a valuable experience working in a professional environment. Being able to communicate directly with clients and leading the discussions 
-            during out initial consultations improved my confidence and my public speaking skills.
+            during our initial consultations improved my confidence and my public speaking skills.
             The collaborative aspect of the Transformation Teams was also a great learning experience. Working with a group of individuals that each had different skill sets
             was hard to manage at first, but we soon became more comfortable with each other's strengths and were able to organize the workload more efficiently.
             Also, working in 4-week sprints helped me get accustomed to the pace of working in a professional setting. Having a deadline made me
             realize the importance of setting small short-term goals in order to not get overwhelmed as deadlines approach. 
             Lastly, designing websites and writing code while knowing that the final product will be used by the business owner on a daily
-            bases forced me to change my workflow. Over the course of the work term, I became more diligent with details surrounding the websites and became more
-            knowledgeable when it came to fixing issues and bugs. I was also given the opportunity to learn more about different CMS's like 
+            basis forced me to change my workflow. Over the course of the work term, I became more diligent with details surrounding the websites and became more
+            knowledgeable when it came to fixing issues and bugs. I was also given the opportunity to learn more about different CMS platforms like 
             Wordpress and Shopify. Finding solutions and workarounds through the limitations of each platform was one of the biggest challenges that I faced.
             However, working with the different platforms exposed me to each of their strengths and weaknesses, which allowed me to give better 
             recommendations to clients during our consultations. Working with Shopify also introduced me to Shopify's templating language, Liquid. Learning and applying Liquid to websites was a great way for me to
