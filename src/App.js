@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Coop from './pages/Coop';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/experience' component={Experience} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
+          <Route path='/coop' component={Coop} />
         </Switch>
       </Router>
       

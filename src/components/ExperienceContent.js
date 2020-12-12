@@ -13,55 +13,38 @@ function ExperienceContent() {
           <div className="job-info-text-wrapper">
             <h1 className="job-title">Web Designer</h1>
             <h2 className="company-title">Communitech</h2>
+            <p>August 2020 - December 2020</p>
           </div>
         </div>
-        <div className="job-description">
-          <h2>About Communitech</h2>
-          <p> 
-            Irure velit consequat ea occaecat anim tempor laborum sit.
-            Nostrud anim et reprehenderit ad. Ullamco labore consequat ea duis nulla dolor magna proident Lorem ut eiusmod mollit magna.
-          </p>
+        <div className="job-description-experience">
           <h2>Job Description</h2>
           <p> 
-            <ul className="point-form">
-              <li>
-                Irure velit consequat ea occaecat anim tempor laborum sit.
-                Nostrud anim et reprehenderit ad. Ullamco labore consequat ea duis nulla dolor magna proident Lorem ut eiusmod mollit magna.
-              </li>
-              <li>
-                Excepteur culpa quis ad mollit sit sint consectetur nulla officia cillum pariatur excepteur sit incididunt.
-              </li>
-              <li>
-                Voluptate cillum dolor amet sint. Quis ullamco quis amet magna aliqua veniam nisi nisi reprehenderit pariatur aute adipisicing aliquip.
-                Et labore amet exercitation ex veniam.
-              </li>
-            </ul>
+            I worked as a Web Designer in the Transformation Teams stream of Digital Main Street's Future Proof program. You can read more about Digital Main Street and the 
+            Future Proof program on Digital Main Street's <a href='https://digitalmainstreet.ca/futureproof/'>website</a>.
+            The transformation teams were assigned businesses in 4-week sprints with the goal of identifing and fixing problems with the businesses
+            online presence, mostly their website or social media. My task was more focused on improving the client's website.
           </p>
-          <h2>Learning Goals</h2>
-          <p> 
+          <h2>Responsibilites</h2>
           <ul className="point-form">
-              <li>
-                Irure velit consequat ea occaecat anim tempor laborum sit.
-                Nostrud anim et reprehenderit ad. Ullamco labore consequat ea duis nulla dolor magna proident Lorem ut eiusmod mollit magna.
-              </li>
-              <li>
-                Excepteur culpa quis ad mollit sit sint consectetur nulla officia cillum pariatur excepteur sit incididunt.
-              </li>
-              <li>
-                Voluptate cillum dolor amet sint. Quis ullamco quis amet magna aliqua veniam nisi nisi reprehenderit pariatur aute adipisicing aliquip.
-                Et labore amet exercitation ex veniam.
-              </li>
-            </ul>
-          </p>
-          <h2>Reflection</h2>
-          <p> 
-            Irure velit consequat ea occaecat anim tempor laborum sit.
-            Nostrud anim et reprehenderit ad. Ullamco labore consequat ea duis nulla dolor magna proident Lorem ut eiusmod mollit magna.
-            Excepteur culpa quis ad mollit sit sint consectetur nulla officia cillum pariatur excepteur sit incididunt.
-            Voluptate cillum dolor amet sint. Quis ullamco quis amet magna aliqua veniam nisi nisi reprehenderit pariatur aute adipisicing aliquip.
-            Et labore amet exercitation ex veniam.
-          </p>
-          
+            <li>
+              Meet with clients to discuss their needs and issue they have with their website
+            </li>
+            <li>
+              Create and test web applications and write website code
+            </li>
+            <li>
+              Work with the UX/UI Designer to create website layouts and designs
+            </li>
+            <li>
+              Work with CMS's like Shopify and Wordpress
+            </li>
+            <li>
+              Fix bugs and other issues with client websites or hosting providers
+            </li>
+            <li>
+              Collaborate with Copy Writers and Graphic Designers on website content
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -1,13 +1,15 @@
-.experience-content-container
+.coop-content-container
 {
   background-color: white;
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.job-section
+.job-section,.intro-section
 {
+  margin: auto;
   width: 75%;
 }
 
@@ -22,6 +24,11 @@
   margin: auto 0px auto;
 }
 
+.section-header
+{
+  text-align: center;
+}
+
 .job-title, .company-title
 {
   text-align: left;
@@ -33,26 +40,35 @@
   margin: auto;
 }
 
+.intro-section > p
+{
+  line-height: 25px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px 20px;
+
+}
+
 .company-logo-img
 {
   width: 150px;
   height: 150px;
 }
 
-.job-description-experience > p
+.job-description > p
 {
   padding: 20px 0px 20px;
 }
 
-.job-description-experience > .point-form
+.point-form
 {
-  padding: 20px 20px 20px;
+  padding: 0px 20px 20px;
   line-height: 25px;
 }
 
 @media only screen and (max-width: 564px)
 {
-  .job-section
+  .job-section,.intro-section
   {
     width: 95%;
   }
