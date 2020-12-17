@@ -11,7 +11,7 @@ function Coop() {
         isVideo={false}
         backgroundSource='/img/jellyfish.jpg'
         header='Co-op Placements'
-        subheader="Summaries and Goals from my past Co-op experiences"
+        subheader="Reflections from my past Co-op experiences"
       />
       <CoopContent/>
       <Footer/>

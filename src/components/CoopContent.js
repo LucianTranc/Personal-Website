@@ -9,7 +9,7 @@ function CoopContent() {
         <h1 className="section-header">About this Section</h1>
         <p>
           In this section I will be going in depth on my goals and experiences from each of my Co-op placements to give you
-          a better idea of the learning experiences I had during each of my Co-op jobs. If you would like a general overview of my
+          a better idea of what I learned during each of my Co-op jobs. If you would like a general overview of my
           experiences, visit the Experiences page.
         </p>
       </div>

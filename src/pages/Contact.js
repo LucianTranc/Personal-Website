@@ -9,7 +9,7 @@ function Contact() {
     <>
       <Hero
         isVideo={false}
-        backgroundSource='/img/luciantranc.jpg'
+        backgroundSource='/img/koifish.jpg'
         header='Contact'
         subheader='Feel free to reach out anytime!'
       />
