@@ -9,7 +9,7 @@ function CoopContent() {
         <h1 className="section-header">About this Section</h1>
         <p>
           In this section I will be going in depth on my goals and experiences from each of my Co-op placements to give you
-          a better idea of the learning experiences I had during each fo my Co-op jobs. If you would like a general overview of my
+          a better idea of the learning experiences I had during each of my Co-op jobs. If you would like a general overview of my
           experiences, visit the Experiences page.
         </p>
       </div>
@@ -58,40 +58,59 @@ function CoopContent() {
               Collaborate with Copy Writers and Graphic Designers on website content
             </li>
           </ul>
-          
-          <h2>Learning Goals</h2>
-          <p> 
-            In order to take full advantage of the learning opportunity from each Co-op placement, my Co-op program recommended
-            I come up with learning goals going into this job. These were the areas of improvemnt I chose to focus on.
-          </p>
-          <ul className="point-form">
-            <li>
-              Communication skills
-            </li>
-            <li>
-              Writing clean and manageable code
-            </li>
-            <li>
-              Time management
-            </li>
-          </ul>
 
           <h2>What I Learned</h2>
           <p>
-            With this being my first Co-op placement, it was a valuable experience working in a professional environment. Being able to communicate directly with clients and leading the discussions 
-            during our initial consultations improved my confidence and my public speaking skills.
-            The collaborative aspect of the Transformation Teams was also a great learning experience. Working with a group of individuals that each had different skill sets
-            was hard to manage at first, but we soon became more comfortable with each other's strengths and were able to organize the workload more efficiently.
-            Also, working in 4-week sprints helped me get accustomed to the pace of working in a professional setting. Having a deadline made me
-            realize the importance of setting small short-term goals in order to not get overwhelmed as deadlines approach. 
-            Lastly, designing websites and writing code while knowing that the final product will be used by the business owner on a daily
-            basis forced me to change my workflow. Over the course of the work term, I became more diligent with details surrounding the websites and became more
+            With this being my first Co-op placement, it was a valuable experience working in a professional environment. Being able to 
+            communicate directly with clients and leading the discussions during our initial consultations improved my confidence and my public speaking skills.
+            The collaborative aspect of the Transformation Teams was also a great learning experience. Working in a team where each memeber had different skill sets
+            was a little unorganized at first, but we soon became more comfortable with each other's strengths and got better at distributing the workload.
+            Also, working in 4-week sprints helped me get accustomed to the pace of working in a professional setting. The structure of having daily check-ins 
+            with the team, and weekly meetings with our supervisor allowed me to improve at setting short term goals.
+            Furthermore, designing websites and writing code while knowing that the final product will be used by the business owner on a daily
+            basis motivated me to imporve my workflow. Over the course of the work term, I became more diligent with details surrounding the websites and became more
             knowledgeable when it came to fixing issues and bugs. I was also given the opportunity to learn more about different CMS platforms like 
             Wordpress and Shopify. Finding solutions and workarounds through the limitations of each platform was one of the biggest challenges that I faced.
             However, working with the different platforms exposed me to each of their strengths and weaknesses, which allowed me to give better 
-            recommendations to clients during our consultations. Working with Shopify also introduced me to Shopify's templating language, Liquid. Learning and applying Liquid to websites was a great way for me to
-            expand my knowledge of different web development techniques. 
+            recommendations to clients during our consultations. Lastly, working with Shopify introduced me to Shopify's templating language, Liquid. Learning and 
+            applying Liquid to websites was a great way for me to expand my knowledge of different web development techniques. 
 
+          </p>
+
+          <h2>Learning Goals</h2>
+          <p> 
+            In order to take full advantage of the learning opportunity from each Co-op placement, my Co-op program recommended
+            I come up with learning goals going into this job. These are my reflections on the areas of improvemnt I chose to focus on.
+          </p>
+          <h3>Goal 1: Work on communication skills</h3>
+          <p> 
+            Working in a team environment was helpful towards my communication skills since it allowed me to collaborate with people that work in different disciplines, 
+            and possessed different skills. Our team became better at creating realistic plans to help our clients because over the course of the term, I improved at 
+            communicating the platform's limitations to my team, which gave us a better idea of what is possible to complete given our deadlines.
+            Over the course of the term, we had several consultations with different businesses. The first couple of which, the conversation was led by my team, 
+            and I mostly just chimed in with questions about their website. However over time, I became more comfortable with the consultations, and I asked if I 
+            could be the one to lead the conversations with the businesses. Through the 4 consultations that I led, I improved my ability to deviate from the set of 
+            questions we had prepared and improvised questions based on where the business owner was leading the conversation. This improved our groups understanding of 
+            the needs of the business, and allowed us to better tailor our deliverables to suit their business.
+          </p>
+          <h3>Goal 2: Practice writing clean and manageable code</h3>
+          <p> 
+            The type of work and responsibilities that came with this role didn’t perfectly line up with my expectations going in. I was expecting to work directly with 
+            the code from the businesses websites, but since most of our clients were small businesses most of them relied on CMS’s for creating their websites. Most of 
+            the technical work that came with this position had to do with either managing and making changes through the websites CMS, adding additional CSS code or writing 
+            new sections using templating languages. As a result, my goal of writing manageable code for the business owners had to be redefined. What I had in mind when I came 
+            up with that goal was making sure that the work I completed for the businesses was clear, clean, and easy for them to build upon in the future. Therefore, I applied 
+            the idea behind my initial goal to the general development of each of the websites. When writing new theme templates for the Shopify sites, I made sure to follow consistent 
+            naming schemes, use consistent code structure across sections, and keep theme sections separate to allow for the business owners to add to them in the future.
+          </p>
+          <h3>Goal 3: Improve time management skills</h3>
+          <p> 
+            Setting realistic goals for the businesses was not only one of my initial learning goals, but my supervisor also stressed that it was important. My supervisor 
+            wanted to make sure that our team wasn’t promising businesses a set of deliverables that we wouldn’t be able to manage. Because of this, I was encouraged to 
+            practice laying out action plans detailing what we plan to provide for the businesses and by when. The plans included smaller incremental goals that the team agreed upon. 
+            We set up action plans for each team member individually, and we held each other accountable in order to meet our deadlines. Also, working in 4-week sprints 
+            helped me get accustomed to the pace of working in a professional setting. Having a deadline made me realize the importance of setting 
+            small short-term goals in order to not get overwhelmed as deadlines approach.
           </p>
 
           <h2>Accomplishments</h2>
