@@ -7,7 +7,7 @@ function ContactContent() {
     <div className="contact-content-container">
       <p> 
         If you would like to find out more about my projects or if you're interested in my work, please reach out.
-        You can contact me through my email or through LinkedIn.
+        You can contact me through my email: <a href='https://linkedin.com/in/luciantranc' target="_blank" rel="noreferrer">ltranc@uoguelph.ca</a> or through LinkedIn.
       </p>
       <div className='contact-icons-wrapper'>
         <a href='mailto: ltranc@uoguelph.ca' target="_blank" rel="noreferrer"><i className='fas fa-envelope fa-2x'/></a>
