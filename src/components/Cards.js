@@ -18,6 +18,16 @@ function Cards() {
               storeLinks={true}
             />
             <CardItem
+              src='/img/billiards.gif'
+              title='Billiards Game'
+              text='Created a Billiards game with realistic physics collision, all rendered using OpenGL'
+              label='C++, OpenGL, SDL2'
+              github={true}
+              githublink='https://github.com/LucianTranc/OpenGL_Billiards'
+            />
+          </ul>
+          <ul className='cards-items'>
+            <CardItem
               src='/img/cppdemo.gif'
               title='2D Game Platform'
               text='Created a 2D Game Engine/Platform from scratch that I plan to use for future projects'
@@ -25,8 +35,6 @@ function Cards() {
               github={true}
               githublink='https://github.com/LucianTranc/SDL_Game'
             />
-          </ul>
-          <ul className='cards-items'>
             <CardItem
               src='img/svgeditor.png'
               title='SVG Image Editor Web App'
@@ -38,6 +46,8 @@ function Cards() {
               buttonlink='https://svg-editor.herokuapp.com/'
               buttonname='View&nbsp;App'
             />
+          </ul>
+          <ul className='cards-items'>
             <CardItem
               src='img/tetris.gif'
               title="Tetris Game"
@@ -49,8 +59,6 @@ function Cards() {
               buttonlink='/LucianTrancTetris.html'
               buttonname='Play&nbsp;Now'
             />
-          </ul>
-          <ul className='cards-items'>
             <CardItem
               src='img/sudokusolver.gif'
               title='Sudoku Backtracking Algorithm'
@@ -59,6 +67,8 @@ function Cards() {
               github={true}
               githublink='https://github.com/LucianTranc/SudokuSolver'
             />
+          </ul>
+          <ul className='cards-items'>
             <CardItem
               src='/img/ltwebsite.png'
               title="Lucian Tranc Personal Website"
