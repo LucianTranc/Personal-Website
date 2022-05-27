@@ -16,6 +16,87 @@ function CoopContent() {
       <div className='job-section'>
         <div className="job-info">
           <div className="company-logo-wrapper">
+            <img src="/img/magnet_logo.png" alt="Magnet Forensics logo" className="company-logo-img"></img>
+          </div>
+          <div className="job-info-text-wrapper">
+            <h1 className="job-title">Software Developer Co-op</h1>
+            <h2 className="company-title">Magnet Forensics</h2>
+            <p>January 2022 - April 2022</p>
+          </div>
+        </div>
+        <div className="job-description">
+          <h2>About Magnet Forensics</h2>
+          <p> 
+            Magnet Forensics is a software company that makes digital forensics tools. Founded in 2011 by Jad Saliba, they have been recognized
+            as one of the fastest growing companies in Canada by Canadian Business’s Growth 500 List in 2016, 2017 and 2019. Their first product,
+            IEF (Internet Evidence Finder), was very popular tool and was used globally by many private investigators and police forces. Since then,
+            they started fresh with a new product called AXIOM with which they have been leading the digital forensics space for many years now.
+          </p>
+          <h2>Job Description/Accomplishments</h2>
+          <p> 
+            I worked on the Computer Artifacts team, which was a team of 6 developers that focused on adding and maintaining the computer artifacts side
+            of AXIOM. I realize that what “computer artifacts” means might not be so clear so let me explain. The first stage of the AXIOM workflow is giving
+            the software data to parse through in the form of a disk image or a physical hard drive. AXIOM then parses through the data, spitting out any
+            information it finds. The computer artifacts team was the team that did the parsing of the data. The way we organized information was by grouping
+            them by where they originated on the disk. For example, discord chat logs, skype, etc. We called these services “artifacts” hence computer artifacts. 
+            <br/><br/>
+            On the computer artifacts team, we used C# and .NET for development, and various in-house tools for testing. The testing was an unexpectedly
+            interesting part of the whole experience. Since we were dealing with digital forensics, we couldn’t afford to merge any code that caused any
+            failures or small issues that lead to losing even 1 piece of evidence. So, every time code was merged, we ran a large test case against it and
+            compared the results to the previous build. If there were changes in the outputs, you would need to verify that those changes are expected and
+            perform debriefs with a test specialist.
+            <br/><br/>
+            I worked on a variety of interesting things at Magnet, but the most notable was my contribution to the AXIOM 6.0 release. In this release,
+            we were launching a new service that specialized in accessing cloud platforms. This service was using usernames and passwords taken from mobile
+            and computer artifacts. There was an issue where a lot of useless values were being passed through to this service and they were coming from values
+            extracted from Apple Keychain. I was tasked with investigating why this was. After a 3 weeklong investigation, I presented a plan of action to the
+            product managers that was approved. My plan involved a modular parsing system that allowed different parsers to be written based on the service
+            provider for each entry stored in the Apple Keychain. Since we were in a time crunch, this solution was convenient since multiple developers could
+            work on different parsers in parallel. We were ultimately successful in parsing all the values by the time AXIOM 6.0 was released. It was a very
+            powerful team effort where multiple developers from different teams came to help. I am very thankful for the responsibility my team entrusted in
+            me and the support they provided throughout.  
+            <br/>
+          </p>
+
+          <h2>Learning Goals</h2>
+          <h3>Goal 1: Communication with Product Owners</h3>
+          <p> 
+            This is a goal that I took on partly through my work term. I noticed that communication with product managers was an aspect of software development that
+            I needed to improve on. I had the privilege of working on production level feature at Magnet and with that, came some added responsibility of communicating
+            my progress on tasks with product managers. With this being a hard learning goal to measure progress, I had to think of ways to ensure I was making progress.
+            What I ended up doing was forcing myself to give updates on the status of my tickets whenever something noteworthy came up. I set a goal completion date,
+            and if I was starting to think I couldn’t reach that goal, I would communicate that with my product manager and give reasoning to why.  
+          </p>
+          <h3>Goal 2: Thin slicing</h3>
+          <p> 
+            This was a learning goal that my supervisor recommended I take because it was very relevant to the work we were doing at Magnet. On the Computer Artifacts team,
+            there aren’t always clearly defined tasks. Sometimes I was assigned exploratory tickets called “spikes” where I would take 3 or 4 days to research possible ways
+            to tackle a problem. After the research was complete, the problem would be broken down into tasks. The issue with this was that you could quickly fall down a rabbit
+            hole of research to no end. Or alternatively, the research that was done for a task you were doing might not have dug too deep into implementation details, revealing
+            a much deeper problem. This was something that the developers on my team were very good at balancing, but for me it took some time getting used to it. To tackle this
+            goal, my supervisor gave me a time limit of 3 days on spikes, and on software features, he would encourage me to break off any tasks I was doing whenever it seemed
+            logical. This was a nuanced practice and I noticed getting better at it with time. I emphasized vertical thin slicing; delivering users any small benefit would be accepted. 
+          </p>
+          <h3>Goal 3:	Scrum/Agile </h3>
+          <p> 
+            This was a goal that I was determined to improve on from the start of the term. I had no previous professional experience in scrum/agile, and I was excited to learn
+            more about it and put it to use. My team used Kanban so there were no typical “Sprints” where work would be assigned over a two-week period and reviewed at the end.
+            Instead, we would continually refine tickets from the backlog every Monday and developers would pick them up as they needed work. Regarding my goal, I can say that
+            I am more comfortable with agile practices now and the tasks I set for myself during the terms helped with this. The big one was forcing myself to participate in every
+            retrospective meeting we had. I made myself include at least one like, dislike and wonder to our team slide show that we used during our retros. This helped me reflect
+            on our practices as a team, make suggestions, and see if implementing those suggestions in following weeks yielded improvements, which is truly in the spirit of agile workflows.
+          </p>
+          
+          <h2>Conclusion</h2>
+          <p> 
+            I am very thankful for how supportive Magnet Forensics has been to my professional development. I learned a lot about C# development, but even more so about problem solving and teamwork.
+          </p>
+          
+        </div>
+      </div>
+      <div className='job-section'>
+        <div className="job-info">
+          <div className="company-logo-wrapper">
             <img src="/img/communitech_logo.jpg" alt="Communitech logo" className="company-logo-img"></img>
           </div>
           <div className="job-info-text-wrapper">
