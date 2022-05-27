@@ -59,6 +59,7 @@ function CoopContent() {
           </p>
 
           <h2>Learning Goals</h2>
+          <br/>
           <h3>Goal 1: Communication with Product Owners</h3>
           <p> 
             This is a goal that I took on partly through my work term. I noticed that communication with product managers was an aspect of software development that
