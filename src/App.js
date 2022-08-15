@@ -1,13 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import About from './pages/About';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Coop from './pages/Coop';
 import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
@@ -16,11 +13,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path='/' exact component={About} />
-          <Route path='/experience' component={Experience} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/coop' component={Coop} />
+          <Route path='/' exact component={Home} />
         </Switch>
       </Router>
       
