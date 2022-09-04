@@ -1,0 +1,159 @@
+.cards
+{
+  background: #fff;
+}
+
+.cards-item-container
+{
+  height: 90vh;
+  width: 45vw;
+  overflow: hidden;
+  background-color: rgba(0,0,0,1);
+}
+
+.cards-item
+{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0,0,0,0);
+  background-size: auto 70%;
+  position: relative;
+}
+
+.cards-item:hover
+{
+  background-color: rgba(0,0,0,0.8);
+  background-size: auto 55%;
+}
+
+.cards-item-title
+{
+  color: white;
+  font-size: 35px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.cards-item-technologies-text
+{
+  color: white;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cards-item-default-content
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+  padding: 5%;
+  color: white;
+  font-size: 25px;
+}
+
+.cards-item:hover .cards-item-title
+{
+  font-size: 25px;
+}
+
+.cards-item:hover .cards-item-technologies-text
+{
+  font-size: 15px;
+}
+
+.cards-item-hover-content
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.cards-item:hover .cards-item-hover-content
+{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.cards-item-hover-content-description-div
+{
+  height: 40%;
+  margin: 10px;
+  padding: 5%;
+}
+
+.cards-item-hover-content-video-div
+{
+  height: 60%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-item-hover-content-video-div > iframe
+{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;  
+  max-height: 100%;
+}
+
+.cards-item-hover-content-description
+{
+  font-size: 22px;
+  color: white;
+}
+
+.cards-item-hover-content-link
+{
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 300ms;
+}
+
+.cards-item-hover-content-link:hover
+{
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.cards-item-hover-content-buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+  align-items: center;
+}
+  
+
+@media only screen and (max-width: 725px)
+{
+  .cards-item-container
+  {
+    width: 94vw;
+  }
+}

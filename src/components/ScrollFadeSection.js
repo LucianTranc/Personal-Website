@@ -18,9 +18,8 @@ export default function ScrollFadeSection(props) {
   const domRef = React.useRef();
 
   useLayoutEffect(() => { const observer = new IntersectionObserver(entries => {
-      entries.forEach((entry) => {
-        entry.target.style.opacity = (entry.intersectionRatio - 0.25) * 2;
-      });
+      var entry = entries[0];
+      entry.target.style.opacity = (entry.intersectionRatio - 0.4) * 2;
     }, options);
 
     observer.observe(domRef.current);
