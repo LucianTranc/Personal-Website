@@ -1,12 +1,13 @@
 import React from 'react';
-import './CardItem.css';
+import './Card.css';
 
-function CardItem(props) {
+function Card(props) {
 
   const titleText = props.titleText;
   const technologiesText = props.technologiesText;
   const descriptionText = props.descriptionText;
   const backgroundImage = props.backgroundImage;
+  const videoLink = props.videoLink;
 
   const buttons = [];
 
@@ -25,7 +26,7 @@ function CardItem(props) {
         <span>&nbsp;&nbsp;</span>
       );
       buttons.push(
-        <a class="cards-item-hover-content-link" href={props.buttons[i].link} key={props.buttons[i].key}>{props.buttons[i].title}</a>
+        <a class="card-hover-content-link" href={props.buttons[i].link} key={props.buttons[i].key}>{props.buttons[i].title}</a>
       );
 
     }
@@ -33,36 +34,36 @@ function CardItem(props) {
 
   return (
     <>
-      <li className='cards-item-container'>
-        <div className='cards-item'  style={{ backgroundImage:`url(${backgroundImage})` }}>
-          <div className='cards-item-default-content'>
-            <h2 className='cards-item-title'>
+      <li className='card-container'>
+        <div className='card'  style={{ backgroundImage:`linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 100%), url(${backgroundImage})` }}>
+          <div className='card-default-content'>
+            <h2 className='card-title'>
               {titleText}
             </h2>
-            <p className='cards-item-technologies-text'>
+            <p className='card-technologies-text'>
               {technologiesText}
             </p>
           </div>
-          <div className='cards-item-hover-content'>
-            <div className='cards-item-hover-content-description-div'>
-              <h2 className='cards-item-title'>
+          <div className='card-hover-content'>
+            <div className='card-hover-content-description-div'>
+              <h2 className='card-title'>
                 {titleText}
               </h2>
-              <p className='cards-item-technologies-text'>
+              <p className='card-technologies-text'>
                 {technologiesText}
               </p>
               <br/>
-              <p className='cards-item-hover-content-description'>
+              <p className='card-hover-content-description'>
                 {descriptionText}
               </p>
               <br/>
-              <div className='cards-item-hover-content-buttons'>
+              <div className='card-hover-content-buttons'>
                 {buttons}
               </div>
             </div>
-            <div className='cards-item-hover-content-video-div'>
+            <div className='card-hover-content-video-div'>
               <iframe width="100%" height="auto"
-                src="https://www.youtube.com/embed/SN1hIYnKvBE" 
+                src={videoLink} 
                 title="YouTube video player" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -76,4 +77,4 @@ function CardItem(props) {
   );
 }
 
-export default CardItem;
+export default Card;

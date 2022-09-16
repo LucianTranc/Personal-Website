@@ -25,7 +25,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a href="#cards" className='nav-links'>Projects</a>
+              <a href="#projects" className='nav-links'>Projects</a>
             </li>
             <li className='nav-item'>
               <Link
@@ -34,15 +34,6 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Experience
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/contact'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Contact
               </Link>
             </li>
           </ul>

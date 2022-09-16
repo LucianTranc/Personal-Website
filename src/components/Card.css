@@ -1,9 +1,4 @@
-.cards
-{
-  background: #fff;
-}
-
-.cards-item-container
+.card-container
 {
   height: 90vh;
   width: 45vw;
@@ -11,7 +6,7 @@
   background-color: rgba(0,0,0,1);
 }
 
-.cards-item
+.card
 {
   width: 100%;
   height: 100%;
@@ -20,17 +15,17 @@
   background-blend-mode: multiply;
   transition: all 0.3s ease-in-out;
   background-color: rgba(0,0,0,0);
-  background-size: auto 70%;
+  background-size: 80% auto;
   position: relative;
 }
 
-.cards-item:hover
+.card:hover
 {
   background-color: rgba(0,0,0,0.8);
-  background-size: auto 55%;
+  background-size: 100% auto;
 }
 
-.cards-item-title
+.card-title
 {
   color: white;
   font-size: 35px;
@@ -38,14 +33,14 @@
 
 }
 
-.cards-item-technologies-text
+.card-technologies-text
 {
   color: white;
   font-size: 25px;
   transition: all 0.3s ease-in-out;
 }
 
-.cards-item-default-content
+.card-default-content
 {
   width: 100%;
   height: 100%;
@@ -58,17 +53,17 @@
   font-size: 25px;
 }
 
-.cards-item:hover .cards-item-title
+.card:hover .card-title
 {
   font-size: 25px;
 }
 
-.cards-item:hover .cards-item-technologies-text
+.card:hover .card-technologies-text
 {
   font-size: 15px;
 }
 
-.cards-item-hover-content
+.card-hover-content
 {
   width: 100%;
   height: 100%;
@@ -78,30 +73,30 @@
   pointer-events: none;
 }
 
-.cards-item:hover .cards-item-hover-content
+.card:hover .card-hover-content
 {
   opacity: 1;
   pointer-events: auto;
 }
 
 
-.cards-item-hover-content-description-div
+.card-hover-content-description-div
 {
   height: 40%;
   margin: 10px;
   padding: 5%;
 }
 
-.cards-item-hover-content-video-div
+.card-hover-content-video-div
 {
   height: 60%;
-  padding: 5%;
+  padding: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cards-item-hover-content-video-div > iframe
+.card-hover-content-video-div > iframe
 {
   width: 100%;
   height: auto;
@@ -109,13 +104,13 @@
   max-height: 100%;
 }
 
-.cards-item-hover-content-description
+.card-hover-content-description
 {
   font-size: 22px;
   color: white;
 }
 
-.cards-item-hover-content-link
+.card-hover-content-link
 {
   font-size: 20px;
   padding: 5px;
@@ -125,7 +120,7 @@
   transition: text-decoration-color 300ms;
 }
 
-.cards-item-hover-content-link:hover
+.card-hover-content-link:hover
 {
   text-decoration-color: rgb(255, 255, 255);
 }
@@ -141,7 +136,7 @@
   -webkit-transform: rotate(-45deg);
 }
 
-.cards-item-hover-content-buttons
+.card-hover-content-buttons
 {
   display: flex;
   flex-direction: row;
@@ -152,7 +147,7 @@
 
 @media only screen and (max-width: 725px)
 {
-  .cards-item-container
+  .card-container
   {
     width: 94vw;
   }
