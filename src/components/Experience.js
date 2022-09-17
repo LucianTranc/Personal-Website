@@ -3,9 +3,9 @@ import './Experience.css';
 import FadeInSection from './FadeInSection';
 import BannerCard from './BannerCard';
 
-function Experience() {
+function Experience(props) {
   return (
-    <div className='experience' id='experience'>
+    <div className='experience' ref={props.experienceRef}>
       <FadeInSection>
         <div className='experience-header-container'>
           <h1 className='experience-header'>Experience</h1>
@@ -28,7 +28,7 @@ function Experience() {
             jobTitleText='Software Developer Co-op'
             datesText='Jan 2022 - April 2022'
             logoImage='./img/magnet-logo-cropped.jpeg'
-            descriptionText='Member of the Computer Artifacts team, where I reverse engineered
+            descriptionText='Developed digital forensics software as a member of the Computer Artifacts team, where I reverse engineered
                              data storage patterns of desktop applications for the retrival of sensitive data. '
           />
         </FadeInSection>

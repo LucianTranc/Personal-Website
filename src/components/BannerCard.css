@@ -1,6 +1,6 @@
 .banner-card-container
 {
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
   overflow: hidden;
   background-color: rgba(0,0,0,1);
@@ -68,10 +68,21 @@
   font-size: 23px;
 }
 
-@media only screen and (max-width: 725px)
+
+@media screen and (max-width: 768px)
 {
   .card-container
   {
     width: 94vw;
+  }
+
+  .banner-card-description-text
+  {
+    font-size: 20px;
+  }
+
+  .banner-card-container
+  {
+    height: 60vh;
   }
 }

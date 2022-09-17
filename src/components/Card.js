@@ -26,7 +26,7 @@ function Card(props) {
         <span>&nbsp;&nbsp;</span>
       );
       buttons.push(
-        <a class="card-hover-content-link" href={props.buttons[i].link} key={props.buttons[i].key}>{props.buttons[i].title}</a>
+        <a class="card-hover-content-link" href={props.buttons[i].link} key={props.buttons[i].key} target="_blank" rel="noreferrer">{props.buttons[i].title}</a>
       );
 
     }

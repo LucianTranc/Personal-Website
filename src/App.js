@@ -1,22 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import ScrollToTop from './components/ScrollToTop';
-
+import Hero from './components/Hero';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import {useRef} from 'react';
 
 function App() {
+
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
+
   return (
     <div className="App">
       <Router>
-        <ScrollToTop />
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-        </Switch>
+        <Navbar projectsRef={projectsRef} aboutRef={aboutRef} experienceRef={experienceRef}/>
+        <Hero aboutRef={aboutRef}/>
+        <Projects projectsRef={projectsRef}/>
+        <Experience experienceRef={experienceRef}/>
+        <Footer />
       </Router>
-      
     </div>
   );
 }
