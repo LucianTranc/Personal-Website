@@ -1,0 +1,57 @@
+.projects
+{
+  background: #fff;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  padding: 10vh 0 0 0;
+}
+
+.cards-wrapper
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 94vw;
+  justify-items: center;
+  gap: 4vw 4vw;
+  margin-top: 12vh;
+  margin-bottom: 6vh;
+}
+
+.projects-header-container
+{
+  width: 94vw;
+}
+
+.projects-header
+{
+  font-size: 70px;
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+  .content-blog-container
+  {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px)
+{
+  
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+@media only screen and (max-width: 725px)
+{
+  .cards-wrapper
+  {
+    grid-template-columns: auto;
+  }
+}

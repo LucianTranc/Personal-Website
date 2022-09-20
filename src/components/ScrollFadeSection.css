@@ -1,0 +1,13 @@
+.scroll-fade-section {
+  opacity: 0;
+  visibility: hidden;
+  will-change: opacity, visibility;
+}
+
+.scroll-fade-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  display: flex; 
+  justify-content: center;
+}

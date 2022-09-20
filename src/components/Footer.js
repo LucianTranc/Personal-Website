@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>Lucian Tranc 2022</small>
+          <p className='website-rights'>Lucian Tranc 2022</p>
           <div className='social-icons'>
             <a href='mailto: ltranc@uoguelph.ca' target="_blank" rel="noreferrer" className='social-icon-link'><i className='fas fa-envelope'/></a>
             <a href='https://github.com/LucianTranc' target="_blank" rel="noreferrer" className='social-icon-link'><i className='fab fa-github'/></a>
