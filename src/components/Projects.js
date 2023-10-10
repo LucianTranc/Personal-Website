@@ -11,6 +11,14 @@ function Projects(props) {
       </div>
       <div className='cards-wrapper'>
         <Card
+          titleText='VR Fighting Game'
+          technologiesText='C++, Unreal Engine'
+          backgroundImage='./img/blackandwhitedummychild.PNG'
+          descriptionText='VR game where you fight off hordes of enemies with physicially simulated interactions'
+
+          videoLink="https://www.youtube.com/embed/UrMVSpfbQBI?si=8MOhfpWkeOSE_gpe"
+          />
+        <Card
           titleText='Soft Body Physics'
           technologiesText='C++, OpenGL, SDL2'
           backgroundImage='./img/softbody.gif'
