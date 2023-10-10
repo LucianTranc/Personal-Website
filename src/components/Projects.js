@@ -19,6 +19,14 @@ function Projects(props) {
           videoLink="https://www.youtube.com/embed/UrMVSpfbQBI?si=8MOhfpWkeOSE_gpe"
           />
         <Card
+          titleText='Chess AI'
+          technologiesText='C++'
+          backgroundImage='./img/ChessEngine.PNG'
+          descriptionText='Chess Engine that uses a min-max search algorithm and bitwise board representations'
+          buttons={[{key: 0, title: 'GitHub', link: 'https://github.com/LucianTranc/ChessEngine'}]}
+          videoLink="https://www.youtube.com/embed/4fjnlBC1AV0?si=y2jtVRv9SJtdtoWJ"
+          />
+        <Card
           titleText='Soft Body Physics'
           technologiesText='C++, OpenGL, SDL2'
           backgroundImage='./img/softbody.gif'
