@@ -16,7 +16,7 @@ function Projects(props) {
           backgroundImage='./img/blackandwhitedummychild.PNG'
           descriptionText='VR game where you fight off hordes of enemies with physicially simulated interactions'
 
-          videoLink="https://www.youtube.com/embed/UrMVSpfbQBI?si=8MOhfpWkeOSE_gpe"
+          videoLink="https://www.youtube.com/embed/gJCwczALwTc?si=WiRqyKykIV7d86-M"
           />
         <Card
           titleText='Chess AI'
